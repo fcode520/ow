@@ -1,0 +1,294 @@
+/* 通用 */
+.martb50{margin: 50px 0;}
+.borb{border-bottom: 2px solid #a6a6a6;padding-bottom: 85px;}
+.w-auto{width: auto;}
+
+/* header start */
+.navbar-toggle{
+    float: left;
+    margin-left: 15px;
+    margin-top: 14px;
+}
+
+.ow-logo{
+    width: 114px;
+    height: 106px;
+    background: url("../images/onewok_logo.png") no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    margin-left: -57px;
+    z-index: 99;
+    display: block;
+    border-radius: 50%;
+    background-position: -1px -9px;
+}
+
+.logo-bg{
+    width: 114px;
+    height: 57px;
+    background: #8b8f98;
+    border-radius: 0 0 57px 57px;
+    position: absolute;
+    left: 50%;
+    top: 60px;
+    margin-left: -55px;
+}
+
+.navbar{
+    min-height: 64px;
+    border: none;
+    border-bottom: 5px solid #8a8e97;
+    margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-collapse{
+    margin-top: 8px;
+}
+
+.container>.navbar-collapse > .nav{
+    margin: 0 auto;
+    float: none;
+    width: 700px;
+    position: relative;
+}
+
+.navbar-collapse .nav{
+    padding: 3px 0 0;
+}
+
+.nav > li{
+    padding:  0 10px;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    font-family: "微软雅黑";
+    color: #ffffff;
+    padding: 10px 16px;
+    font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav>li.active > a,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li.active > a:hover{
+    color: #4daaca;
+}
+
+.link-work{
+    margin-right: 130px;
+}
+
+.in{
+    overflow: hidden;
+}
+
+.dot{
+    width: 8px;
+    height: 8px;
+    background: #4daaca;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    position: absolute;
+    left: 37px;
+    top: 50px;
+}
+
+/**** header end ****/
+
+/* mainContainer start */
+.banner{
+    width: 100%;
+    height: auto;
+}
+
+.main-container{
+    padding: 0 10%;
+}
+
+.main-section{
+    margin-top: 50px;
+}
+
+.text-ow{
+    font-size: 72px;
+    color: #030710;
+    text-align: center;
+}
+
+.text-ow-info{
+    font-size: 24px;
+    color: #999999;
+    text-align: center;
+    font-family: Segoe Print;
+}
+
+.ow-img img{
+    margin-bottom: 25px;
+}
+
+.work-con{
+    width: auto;
+    min-height: 350px;
+    overflow: hidden;
+}
+
+.work-pos{
+    position: relative;
+    min-height: 350px;
+}
+
+.work-img{
+    position: absolute;
+    overflow: hidden;
+}
+
+.work-sofa{
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+.work-cafe{
+    margin-top: 2%;
+    right: 3%;
+}
+
+.work-every{
+    bottom: 0%;
+    left: 10%;
+}
+
+.work-travel{
+    bottom: 2%;
+    right: 0;
+}
+
+.work-big{
+    top: 40%;
+    left: 40%
+}
+
+.work-traffic{
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+.work-time{
+    margin-top: 2%;
+    right: 0;
+}
+
+.work-suit{
+    bottom: 0;
+    left: 10%;
+}
+
+.work-oneplace{
+    bottom: 0;
+    right: 10%;
+}
+
+.work-mid{
+    text-align: center;
+    padding: 0;
+}
+
+.work-mid p{
+    font-size: 2em;
+    margin-top: 155px;
+    color: #333;
+}
+
+.work-line{
+    display: block;
+    width: 1px;
+    height: 250px;
+    margin-top: -155px;
+    border-left: 1px dashed #aaa;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.work-info-wrap{
+    width: auto;
+}
+
+.work-info-title p{
+    font-size: 1.8em;
+    color: #222;
+    font-family: "黑体";
+}
+
+.work-info-title span{
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #53a0bb;
+    line-height: 1.1em;
+    border-top: 1px solid #53a0bb;
+    border-bottom: 1px solid #53a0bb;
+    line-height: 150%;
+}
+
+.work-info{
+    color: #333;
+    font-size: 1.1em;
+}
+
+
+/* mainContainer end */
+
+/* footer start */
+#footer{
+    margin: 0 10%;
+    padding: 80px 0;
+    font-family: "微软雅黑";
+}
+
+.footer-title1{
+    font-size: 18px;
+    color: #030710;
+    margin-right: 20px;
+}
+
+.footer-title2{
+    font-size: 14px;
+    color: #030710;
+    margin-left: 20px;
+}
+
+.footer-con{
+    line-height: 2.4em;
+    color: #747576;
+    font-size: 14px;
+}
+
+/* 媒体查询相关的类 */
+@media (max-width: 768px){
+    .ow-logo{
+        display: none;
+    }
+
+    .work-mid{
+        display: none;
+    }
+
+    .work-con{
+        height:700px;
+    }
+
+    .work-top-line{
+        border-top: 1px solid #ccc;
+    }
+
+    .work-info{
+        line-height: 1.2em;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .logo-bg,.dot{
+        display: none;
+    }
+}
+
+/* 其他 */
+body{background: #f1f1f1;font-family: "微软雅黑";}
