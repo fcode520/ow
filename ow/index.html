@@ -35,7 +35,8 @@
                     <li><a href="#">交流</a></li>
                     <li><a href="#">Wiki</a></li>
                     <div class="dot"></div>
-                </ul>
+                </ul>1
+
                 
             </div>
         </div>
@@ -150,7 +151,17 @@
 
     <script>
         $(function(){
-            $();
+            $('.nav > li').hover(function(){
+                var index = $(this).index()+1,
+                    w = $(this).width(),
+                    left1 = $('.nav > li:first').position().left,
+                    left2 = $('.nav > li:nth-child('+index+')').position().left,
+                    left = left2 - left1 + w/2 +5;
+                $('.dot').stop().animate({left:left},300);
+            },function(){
+                //$('.dot').stop().animate({left:"37px"},200);
+            });
+
         });
     </script>
 </body>
