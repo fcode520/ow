@@ -2,6 +2,8 @@
 .martb50{margin: 50px 0;}
 .borb{border-bottom: 2px solid #a6a6a6;padding-bottom: 85px;}
 .w-auto{width: auto;}
+.border-bot{border-bottom: 2px solid #a6a6a6;}
+.margintb{margin: 50px 0 60px;}
 
 /* header start */
 .navbar-toggle{
@@ -140,6 +142,12 @@
 .work-img{
     position: absolute;
     overflow: hidden;
+    text-align: center;
+}
+
+.work-img p{
+    margin-top: 5px;
+    color: #909292;
 }
 
 .work-sofa{
@@ -147,9 +155,17 @@
     margin-left: 2%;
 }
 
+.work-sofa p{
+    color: #8a2ec0;
+}
+
 .work-cafe{
     margin-top: 2%;
     right: 3%;
+}
+
+.work-cafe p{
+    color: #907630;
 }
 
 .work-every{
@@ -157,9 +173,17 @@
     left: 10%;
 }
 
+.work-every p{
+    color: #438179;
+}
+
 .work-travel{
     bottom: 2%;
     right: 0;
+}
+
+.work-travel p{
+    color: #33a541;
 }
 
 .work-big{
@@ -233,6 +257,185 @@
     font-size: 1.1em;
 }
 
+.next-title{
+    font-size: 48px;
+}
+
+.next-info > p{
+    color: #212121;
+    font-size: 16px;
+    padding-left: 18px;
+}
+
+.submit-project{
+    width: 165px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 14px;
+    color: #212121;
+    background: url(../images/rig.jpg) no-repeat 135px center;
+    border:1px solid #666666;
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.submit-project:hover{
+    background-color: #cfcfcf;
+    color: #212121;
+    text-decoration: none;
+}
+
+.border-up,.border-down{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-width: 90px;
+    overflow: hidden;
+}
+
+.border-up{
+    transform:scaleY(0.7);
+    border-color: transparent transparent #d8a034;
+    border-style:  dotted solid dotted dotted;
+    position: relative;
+    top:32px;
+}
+
+.border-down{
+    border-color: #d8a034 transparent transparent;
+    border-style: solid dotted dotted;
+    transform:scaleY(0.7);
+    position: relative;
+    top:-27px;
+}
+
+.second-up{
+    border-color:  transparent transparent #4daaca;
+}
+
+.second-down{
+    border-color: #4daaca transparent transparent;
+}
+
+.third-up{
+    border-color: transparent transparent #cc2f54;
+}
+
+.third-down{
+    border-color:#cc2f54 transparent transparent;
+}
+
+.next-one-con{
+    width: 180px;
+    height: 110px;
+    background-color: #d8a034;
+    position: relative;
+    left: 50%;
+    margin-left: -90px;
+}
+
+.second-bg{
+    background-color: #4daaca;
+}
+
+.third-bg{
+    background-color: #cc2f54;
+}
+
+.next-one-con p{
+    padding-top: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+p.first-title{
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: -130px;
+    font-size: 24px;
+    color: #d8a034;
+}
+
+p.second-title{
+    color: #4daaca;
+}
+
+p.third-title{
+    color: #cc2f54;
+}
+
+.first-img{
+    width: 100%;
+    background: url(../images/no1.jpg) no-repeat center center;
+    position: absolute;
+    left: 0;
+    top: -35px;
+    height: 27px;
+}
+
+.second-img{
+    width: 100%;
+    background: url(../images/no2.jpg) no-repeat center center;
+    position: absolute;
+    left: 0;
+    top: -35px;
+    height: 27px;
+}
+
+.third-img{
+    width: 100%;
+    background: url(../images/no3.jpg) no-repeat center center;
+    position: absolute;
+    left: 0;
+    top: -35px;
+    height: 27px;
+}
+
+.big-title{
+    text-align: center;
+    width: 100%;
+    line-height: 48px;
+}
+
+.big-title span{
+    font-size: 48px;    
+    font-family: Times New Roman;
+}
+
+.big-title .big-title-a{
+    font-size: 24px;
+    color: #b5b5b5;
+    margin: 0 10px;
+}
+
+.small-title{
+    text-align: center;
+    margin: 10px 0 90px;
+}
+
+.small-title > span{
+    font-size: 16px;
+    color: #53a0bb;
+    border-top: 1px solid #53a0bb;
+    border-bottom: 1px solid #53a0bb;    
+}
+
+.ow-every span{
+    display: inline-block;
+    margin:20px 0 15px;
+    font-size: 18px;
+    color: #212121;
+}
+
+.ow-every p{
+    font-size: 12px;
+    color: #676768;
+    line-height: 2;
+}
 
 /* mainContainer end */
 
@@ -288,6 +491,7 @@
     .logo-bg,.dot{
         display: none;
     }
+
 }
 
 /* 其他 */
